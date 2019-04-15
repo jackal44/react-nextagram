@@ -25,6 +25,7 @@ export default class Login extends React.Component {
         .catch(error => {
           console.log(error)
         })
+      this.forceUpdate();
 
     }
     else {
