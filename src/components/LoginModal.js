@@ -23,7 +23,7 @@ class LoginModal extends React.Component {
     render() {
         return (
             <div>
-                <Button color="danger" onClick={this.toggle}>Login</Button>
+                <Button color="primary" onClick={this.toggle}>Login</Button>
                 <Modal isOpen={this.state.modal} modalTransition={{ timeout: 700 }} backdropTransition={{ timeout: 1300 }}
                     toggle={this.toggle} className={this.props.className}>
                     <ModalHeader toggle={this.toggle}>Nextagram</ModalHeader>
